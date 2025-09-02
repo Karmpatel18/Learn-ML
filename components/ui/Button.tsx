@@ -17,11 +17,11 @@ const Button: React.FC<ButtonProps> = ({
   className,
 }) => {
   const baseStyles =
-    "rounded-2xl font-medium focus:outline-none transition-colors duration-200";
+    "rounded-lg font-medium focus:outline-none transition-colors duration-200 cursor-pointer tracking-tighter shadow-lg shadow-neutral-400/20 dark:shadow-none";
 
   const variantStyles: Record<string, string> = {
-    primary: "bg-blue-600 text-white hover:bg-blue-700",
-    secondary: "bg-gray-200 text-gray-900 hover:bg-gray-300",
+    primary: "bg-neutral-900 dark:bg-neutral-50 border-[1px] border-neutral-900 dark:border-neutral-50 text-white dark:text-neutral-900 hover:bg-neutral-800 dark:hover:bg-neutral-100 hover:translate-y-[-2px]  transition-transform animate ease-out hover:border-neutral-800 duration-300",
+    secondary: "bg-neutral-50 dark:bg-neutral-950 border-[1px] border-neutral-200 dark:border-neutral-800 dark:text-white text-neutral-900 hover:bg-neutral-50 dark:hover:bg-neutral-900 hover:translate-y-[-2px]  transition-transform animate ease-out hover:border-neutral-100 dark:hover:border-neutral-800 duration-300",
     danger: "bg-red-600 text-white hover:bg-red-700",
   };
 
