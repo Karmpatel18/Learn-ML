@@ -4,7 +4,7 @@ import { AnimatedThemeToggler } from "@/components/magicui/animated-theme-toggle
 import Link from 'next/link';
 function Navbar() {
   return (
-    <nav className="flex w-full max-w-full justify-between items-center sm:px-4 md:px-6 lg:px-12 px-2 py-3.5 border-b-[1px] dark:border-b-neutral-800 border-b-neutral-200">
+    <nav className="flex w-full max-w-full justify-between items-center sm:px-4 md:px-6 lg:px-6 px-2 py-3.5 border-b-[1px] dark:border-b-neutral-800 border-b-neutral-200">
       <h1 className="text-2xl font-semibold tracking-tight dark:text-neutral-50 text-neutral-900">LearnML</h1>
       <div className="flex items-center gap-4">
         <AnimatedThemeToggler className="scale-90 dark:text-neutral-50 text-neutral-900" />
